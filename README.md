@@ -21,3 +21,9 @@ API significa Application Programming Interface (Interface de Programação de A
 ## Como as APIs funcionam?
 
 A arquitetura da API Geralmente APIs utilizam uma arquitetura baseada em cliente e servidor. A aplicação, o software, que envia a requisição é chamada de “cliente” e a aplicação que envia a resposta é chamada de “servidor”.
+
+## Material para consulta e estudo
+
+💙 [Playlist Conceitos sobre a WEB](https://www.youtube.com/playlist?list=PLPjSrtKJfMyfh-Pk-H-I_5nYAognbeGG7)
+
+💚 [Playlist Node.js](https://www.youtube.com/playlist?list=PLPjSrtKJfMye2tETbbWSql4k_E4TFlQPT)
