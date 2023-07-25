@@ -8,7 +8,7 @@ O Node.js é um ambiente de execução, um “runtime”, que possibilidade exec
 
 ## A História do Node.js
 
-O Node.js nasceu em 2009 como uma resposta às tentativas de rodar códigos JavaScript em modo “server side”, uma vez que a linguagem tinha como meta principal a manipulação do DOM (Document Object Model) e deixar as aplicações web mais interativas e dinâmicas.
+O Node.js nasceu em 2009 como uma resposta às tentativas de rodar códigos JavaScript em modo “server side”, uma vez que a linguagem tinha como meta principal a manipulação do `DOM (Document Object Model)` e deixar as aplicações web mais interativas e dinâmicas.
 
 Além disso, o fato da popularidade da linguagem entre pessoas desenvolvedoras por ser simples, interpretada e que não necessita da instalação de ferramentas complexas para o desenvolvimento.
 
