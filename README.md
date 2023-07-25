@@ -8,7 +8,7 @@ O Node.js é um ambiente de execução, um “runtime”, que possibilidade exec
 
 ## A História do Node.js
 
-O Node.js nasceu em 2009 como uma resposta às tentativas de rodar códigos JavaScript em modo “server side”, uma vez que a linguagem tinha como meta principal a manipulação do `DOM (Document Object Model)` e deixar as aplicações web mais interativas e dinâmicas.
+O Node.js nasceu em 2009 como uma resposta às tentativas de rodar códigos JavaScript em modo “server side”, uma vez que a linguagem tinha como meta principal a manipulação do **DOM (Document Object Model)** e deixar as aplicações web mais interativas e dinâmicas.
 
 Além disso, o fato da popularidade da linguagem entre pessoas desenvolvedoras por ser simples, interpretada e que não necessita da instalação de ferramentas complexas para o desenvolvimento.
 
@@ -16,7 +16,7 @@ Esses são alguns dos fatores que motivaram  o criador do projeto do Node.js, o 
 
 ## API
 
-API significa Application Programming Interface (Interface de Programação de Aplicação). APIs são mecanismos que permitem que dois componentes de software se comuniquem usando um conjunto de definições e protocolos, sendo o protocolo HTTP o principal protocolo de comunicação, entre aplicações web, utilizado na atualidade. No contexto de APIs, a palavra Aplicação refere-se a qualquer tipo de software. A interface pode ser definida como um contrato, um conjuntos de regras que devem ser seguidas para a comunicação efetiva entre dois, ou mais, softwares distintos. A comunicação entre os softwares realizada por meio de requisições (requests) e repostas (responses).
+API significa Application Programming Interface (Interface de Programação de Aplicação). APIs são mecanismos que permitem que dois componentes de software se comuniquem usando um conjunto de definições e protocolos, sendo o **protocolo HTTP** o principal protocolo de comunicação utilizado na web. No contexto de APIs, a palavra "Aplicação" se refere a qualquer tipo de software. A "Interface" pode ser definida como um contrato, um conjuntos de regras, que devem ser seguidas para a comunicação efetiva entre dois, ou mais, softwares distintos. A comunicação entre os softwares é realizada por meio de **requisições** (requests) e **repostas** (responses).
 
 ## Como as APIs funcionam?
 
