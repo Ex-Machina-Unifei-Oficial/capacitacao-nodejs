@@ -25,9 +25,6 @@ Além disso, uma parte crucial dessa relação são as APIs ``Application Progra
 ## API
 
 APIs são mecanismos que permitem que dois componentes de software se comuniquem usando um conjunto de definições e protocolos, sendo o ``protocolo HTTP`` o principal protocolo de comunicação utilizado na web. No contexto de APIs, a palavra "Aplicação" se refere a qualquer tipo de software. A "Interface" pode ser definida como um contrato, um conjuntos de regras, que devem ser seguidas para a comunicação efetiva entre dois, ou mais, softwares distintos. A comunicação entre os softwares é realizada por meio de **requisições** (requests) e **repostas** (responses).
-
-## Como as APIs funcionam?
-
 A arquitetura da API Geralmente APIs utilizam uma arquitetura baseada em cliente e servidor. A aplicação, o software, que envia a requisição é chamada de “cliente” e a aplicação que envia a resposta é chamada de “servidor”.
 
 ## Material para consulta e estudo
