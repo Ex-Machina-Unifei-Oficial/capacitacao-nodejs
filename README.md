@@ -14,9 +14,17 @@ Além disso, o fato da popularidade da linguagem entre pessoas desenvolvedoras p
 
 Esses são alguns dos fatores que motivaram  o criador do projeto do Node.js, o engenheiro de software Ryan Dahl.
 
+## Frontend e Backend
+
+Front-end refere-se à parte visível de um aplicativo ou site com a qual os usuários interagem diretamente, envolvendo design, interatividade e experiência do usuário. Utiliza tecnologias como HTML, CSS e JavaScript. Enquanto isso, o back-end é a parte não visível que lida com a lógica de negócios, processamento de dados e interações com bancos de dados, usando linguagens como Python, Java e plataformas como Node.js.
+
+A arquitetura cliente-servidor é um modelo em que as funções são divididas entre clientes (que solicitam recursos) e servidores (que fornecem esses recursos). O cliente envia pedidos ao servidor, que os processa e retorna as respostas adequadas. Esses três elementos estão interconectados: o ``front-end (o cliente)`` solicita recursos ao ``back-end(o servidor)``, seguindo a aqruitetura cliente-servidor.
+
+Além disso, uma parte crucial dessa relação são as APIs ``Application Programming Interface (Interface de Programação de Aplicação)``, que define como os componentes front-end e back-end se comunicam. Através da API, o front-end faz solicitações específicas ao back-end, que responde com os dados ou ações necessárias. É possível fazer alusão de uma API com o próprio back-end (o servidor) seguindo determinados protocolos e convenções.
+
 ## API
 
-API significa Application Programming Interface (Interface de Programação de Aplicação). APIs são mecanismos que permitem que dois componentes de software se comuniquem usando um conjunto de definições e protocolos, sendo o ``protocolo HTTP`` o principal protocolo de comunicação utilizado na web. No contexto de APIs, a palavra "Aplicação" se refere a qualquer tipo de software. A "Interface" pode ser definida como um contrato, um conjuntos de regras, que devem ser seguidas para a comunicação efetiva entre dois, ou mais, softwares distintos. A comunicação entre os softwares é realizada por meio de **requisições** (requests) e **repostas** (responses).
+APIs são mecanismos que permitem que dois componentes de software se comuniquem usando um conjunto de definições e protocolos, sendo o ``protocolo HTTP`` o principal protocolo de comunicação utilizado na web. No contexto de APIs, a palavra "Aplicação" se refere a qualquer tipo de software. A "Interface" pode ser definida como um contrato, um conjuntos de regras, que devem ser seguidas para a comunicação efetiva entre dois, ou mais, softwares distintos. A comunicação entre os softwares é realizada por meio de **requisições** (requests) e **repostas** (responses).
 
 ## Como as APIs funcionam?
 
