@@ -16,7 +16,7 @@ Esses são alguns dos fatores que motivaram  o criador do projeto do Node.js, o 
 
 ## Frontend e Backend
 
-Front-end refere-se à parte visível de um aplicativo ou site com a qual os usuários interagem diretamente, envolvendo design, interatividade e experiência do usuário. Utiliza tecnologias como HTML, CSS e JavaScript. Enquanto isso, o back-end é a parte não visível que lida com a lógica de negócios, processamento de dados e interações com bancos de dados, usando linguagens como Python, Java e plataformas como Node.js.
+Front-end se refere à parte visível de um aplicativo ou site com a qual os usuários interagem diretamente, envolvendo design, interatividade e experiência do usuário. Utiliza tecnologias como HTML, CSS e JavaScript. Enquanto isso, o back-end é a parte não visível que lida com a lógica de negócios, processamento de dados e interações com bancos de dados, usando linguagens como Python, Java e plataformas como Node.js.
 
 A arquitetura cliente-servidor é um modelo em que as funções são divididas entre clientes (que solicitam recursos) e servidores (que fornecem esses recursos). O cliente envia pedidos ao servidor, que os processa e retorna as respostas adequadas. Esses três elementos estão interconectados: o ``front-end (o cliente)`` solicita recursos ao ``back-end(o servidor)``, seguindo a aqruitetura cliente-servidor.
 
