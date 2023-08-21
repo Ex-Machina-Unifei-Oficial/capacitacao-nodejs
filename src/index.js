@@ -32,12 +32,3 @@ app.get('/users/:id', (req, res) => {
 app.listen(PORT, () => {
   console.log(`The server is running on http://localhost:${PORT}`)
 })
-
-/*
-
-hots: http://localhost:3333/user/1
-
-/user POST {name, email, senha}
-/user/:id GET
-
-*/
