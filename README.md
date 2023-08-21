@@ -29,7 +29,7 @@ Geralmente as APIs utilizam uma arquitetura baseada em ``cliente e servidor.`` A
 
 ## REST
 
-200 OK: A solicitação foi bem-sucedida e a resposta contém os dados solicitados.\n
+200 OK: A solicitação foi bem-sucedida e a resposta contém os dados solicitados.<br>
 201 Created: A solicitação foi bem-sucedida e resultou na criação de um novo recurso.
 204 No Content: Este código significa que o servidor processou a solicitação com sucesso, mas não retornará nenhum conteúdo.
 400 Bad Request: A solicitação foi malformada ou contém parâmetros inválidos.
