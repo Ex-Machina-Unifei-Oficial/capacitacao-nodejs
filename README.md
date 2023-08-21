@@ -52,7 +52,7 @@ Cada resposta que a aplicação REST retorna, é enviado um código definindo o 
 * 404 (Not Found), o recurso solicitado não foi encontrado no servidor;<br>
 * 500 (Internal Server Error), o servidor encontrou uma situação inesperada que o impediu de atender à solicitação;<br>
 
-# Tipos de Parâmetros nas requisições REST.
+# Tipos de Parâmetros nas requisições REST
 
 Há várias maneiras de fazer requisições HTTP do front end para o back end usando REST.
 Os verbos são: Get, Put, Post, Delete sendo que alguns podem receber parâmetros na URL ou não. Existem três tipos de parâmetros, dois deles comumente utilizados no método GET e um no método no POST.
