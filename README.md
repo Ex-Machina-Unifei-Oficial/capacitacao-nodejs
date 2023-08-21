@@ -86,11 +86,13 @@ Caso de uso: Melhor maneira para buscar algo específico, deletar ou atualizar u
 ``DELETE: https://api.github.com/users/380327``<br>
 
 ## Body Params
-Recebe os dados da requisição no corpo da requisição, em um objeto em JSON. Sempre utilizando no método POST da requisição.
+Recebe os dados no corpo da requisição, em um objeto em JSON. Frequentemente Utilizado com os métodos ``POST`` e ``PUT``.
 
 ```json
-{ 
-	"name": "Thiago", "age": 18, "email": "thiago@mail.com"
+{
+  "name": "Thiago",
+  "age": 18,
+  "email": "thiago@mail.com"
 }
 ```
 
