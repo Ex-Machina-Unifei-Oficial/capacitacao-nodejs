@@ -29,17 +29,15 @@ Geralmente as APIs utilizam uma arquitetura baseada em ``cliente e servidor.`` A
 
 ## REST
 
-* Item 1
-* Item 2
-* Item 3
+Algunso dos Códigos de Resposta HTTP mais utilizados são:
+* 200 OK: A solicitação foi bem-sucedida e a resposta contém os dados solicitados.<br>
+* 201 Created: A solicitação foi bem-sucedida e resultou na criação de um novo recurso.<br>
+* 204 No Content: Este código significa que o servidor processou a solicitação com sucesso, mas não retornará nenhum conteúdo.<br>
+* 400 Bad Request: A solicitação foi malformada ou contém parâmetros inválidos.<br>
+* 401 Unauthorized: A solicitação requer autenticação, mas as credenciais fornecidas estão incorretas ou ausentes.<br>
+* 404 Not Found: O recurso solicitado não foi encontrado no servidor.<br>
+* 500 Internal Server Error: O servidor encontrou uma situação inesperada que o impediu de atender à solicitação.<br>
 
-200 OK: A solicitação foi bem-sucedida e a resposta contém os dados solicitados.<br>
-201 Created: A solicitação foi bem-sucedida e resultou na criação de um novo recurso.
-204 No Content: Este código significa que o servidor processou a solicitação com sucesso, mas não retornará nenhum conteúdo.
-400 Bad Request: A solicitação foi malformada ou contém parâmetros inválidos.
-401 Unauthorized: A solicitação requer autenticação, mas as credenciais fornecidas estão incorretas ou ausentes.
-404 Not Found: O recurso solicitado não foi encontrado no servidor.
-500 Internal Server Error: O servidor encontrou uma situação inesperada que o impediu de atender à solicitação.
 ## Material para consulta e estudo
 
 💙 [Playlist Conceitos sobre a WEB](https://www.youtube.com/playlist?list=PLPjSrtKJfMyfh-Pk-H-I_5nYAognbeGG7)
