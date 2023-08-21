@@ -58,10 +58,10 @@ O JSON (JavaScript Object Notation) é, como o nome sugere, uma forma de notaç�
 ## Métodos HTTP
 Em aplicação REST, os métodos mais utilizados são:
 
-* O método ``GET`` é o método mais comum, geralmente é usado para solicitar que um servidor envie um recurso;<br>
-O método ``POST`` foi projetado para enviar dados de entrada para o servidor. Na prática, é frequentemente usado para suportar formulários HTML;<br>
-O método ``PUT`` edita e atualiza documentos em um servidor;<br>
-O método ``DELETE`` que como o próprio nome já diz, deleta certo dado ou coleção do servidor;<br>
+* O método ``GET`` é o método mais comum, indica que um recurso será recuperado do servidor. Por exemplo, quando um usuário solicita uma página web pelo navegador;<br>
+O método ``POST`` indica que um recurso será inserido ou criado no servidor, como um registro na base  de dados ou um upload de arquivo, por exemplo;<br>
+O método ``PUT`` indica que um recurso será atualizado no servidor;<br>
+O método ``DELETE`` que como o próprio nome já diz, indica que um recurso pi coleçaão será removido do servidor;<br>
 
 ## Códigos de Respostas
 Cada resposta que a aplicação REST retorna, é enviado um código definindo o status da requisição. Os Códigos de Resposta HTTP mais utilizados são:
