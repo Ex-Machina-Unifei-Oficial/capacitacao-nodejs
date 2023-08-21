@@ -64,7 +64,7 @@ Existem três tipos de parâmetros, dois deles comumente utilizados no método G
 * Route Params (GET);
 * Body Params (POST e PUT);
 
-### Query params
+## Query params
 
 Recebe os dados da requisição como parâmetro na URL.
 
@@ -77,6 +77,18 @@ Exemplos:
 ``http://minhaapi.com/banks?name=nubank``
 
 No exemplo acima acesso o recurso (ou rota) banks, filtrando por name. Para inserir parâmetros é colocado um "?" após a rota e então adicionado a propriedade e valor: ``name=nubank``.
+
+## Route params
+
+Recebe os dados da requisição na rota.
+
+Caso de uso: Melhor maneira para buscar algo específico, deletar ou atualizar usando o identificador único, por exemplo:
+
+``GET: https://api.github.com/users/380327``
+``PUT: https://api.github.com/users/380327``
+``DELETE: https://api.github.com/users/380327``
+
+No exemplo acima ocorrem busca, atualização e delete de um usuário do GitHub com id 380327.
 
 
 ## Material para consulta e estudo
