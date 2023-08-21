@@ -38,9 +38,9 @@ Na arquitetura REST a comunicação entre cliente e servidor ocorre através da 
 Em aplicação REST, os métodos mais utilizados são:
 
 * O método ``GET`` é o método mais comum, geralmente é usado para solicitar que um servidor envie um recurso;<br>
-O método POST foi projetado para enviar dados de entrada para o servidor. Na prática, é frequentemente usado para suportar formulários HTML;
-O método PUT edita e atualiza documentos em um servidor;
-O método DELETE que como o próprio nome já diz, deleta certo dado ou coleção do servidor.
+O método ``POST`` foi projetado para enviar dados de entrada para o servidor. Na prática, é frequentemente usado para suportar formulários HTML;<br>
+O método ``PUT`` edita e atualiza documentos em um servidor;<br>
+O método ``DELETE`` que como o próprio nome já diz, deleta certo dado ou coleção do servidor;<br>
 
 ## Códigos de Respostas
 Cada resposta que a aplicação REST retorna, é enviado um código definindo o status da requisição. Algunso dos Códigos de Resposta HTTP mais utilizados são:
@@ -55,7 +55,7 @@ Cada resposta que a aplicação REST retorna, é enviado um código definindo o 
 # Tipos de Parâmetros nas requisições REST.
 
 Há várias maneiras de fazer requisições HTTP do front end para o back end usando REST.
-Os verbos são: Get, Put, Post, Patch, Delete sendo que alguns podem receber parâmetros na URL ou não.
+Os verbos são: Get, Put, Post, Delete sendo que alguns podem receber parâmetros na URL ou não.
 
 ## Tipos
 Existem três tipos de parâmetros, dois deles comumente utilizados no método GET e um no método no POST.
