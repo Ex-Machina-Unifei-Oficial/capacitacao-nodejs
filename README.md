@@ -119,6 +119,13 @@ Recebe os dados no corpo da requisição, em um objeto em JSON. Frequentemente U
 
 No exemplo acima ocorrem a busca, a atualização e o delete de um usuário do GitHub com id 380327.
 
+# CRUD
+CRUD é um acrônimo para ``Create`` (criar), ``Read`` (ler), ``Update`` (atualizar) e ``Delete`` (apagar), que se refere as quatro operações básicas que podem ser realizadas em um banco de dados ou em uma aplicação web.<br>
+
+Essas operações permitem que os usuários interajam com os dados armazenados em um sistema, podendo criar novos registros, ler informações existentes, atualizar registros existentes e excluir registros que não são mais necessários.<br>
+
+Criar um CRUD significa desenvolver uma interface que permita ao usuário realizar essas operações de forma simples e intuitiva.<br>
+
 
 ## Material para consulta e estudo
 
