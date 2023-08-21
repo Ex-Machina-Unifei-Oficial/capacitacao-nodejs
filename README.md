@@ -44,13 +44,41 @@ O método DELETE que como o próprio nome já diz, deleta certo dado ou coleçã
 
 ## Códigos de Respostas
 Cada resposta que a aplicação REST retorna, é enviado um código definindo o status da requisição. Algunso dos Códigos de Resposta HTTP mais utilizados são:
-* 200 OK: A solicitação foi bem-sucedida e a resposta contém os dados solicitados.<br>
-* 201 Created: A solicitação foi bem-sucedida e resultou na criação de um novo recurso.<br>
-* 204 No Content: Este código significa que o servidor processou a solicitação com sucesso, mas não retornará nenhum conteúdo.<br>
-* 400 Bad Request: A solicitação foi malformada ou contém parâmetros inválidos.<br>
-* 401 Unauthorized: A solicitação requer autenticação, mas as credenciais fornecidas estão incorretas ou ausentes.<br>
-* 404 Not Found: O recurso solicitado não foi encontrado no servidor.<br>
-* 500 Internal Server Error: O servidor encontrou uma situação inesperada que o impediu de atender à solicitação.<br>
+* 200 (OK), a solicitação foi bem-sucedida e a resposta contém os dados solicitados.<br>
+* 201 (Created), a solicitação foi bem-sucedida e resultou na criação de um novo recurso.<br>
+* 204 (No Content), este código significa que o servidor processou a solicitação com sucesso, mas não retornará nenhum conteúdo.<br>
+* 400 (Bad Request), a solicitação foi malformada ou contém parâmetros inválidos.<br>
+* 401 (Unauthorized), a solicitação requer autenticação, mas as credenciais fornecidas estão incorretas ou ausentes.<br>
+* 404 (Not Found), o recurso solicitado não foi encontrado no servidor.<br>
+* 500 (Internal Server Error), o servidor encontrou uma situação inesperada que o impediu de atender à solicitação.<br>
+
+# Tipos de Parâmetros nas requisições REST.
+
+Há várias maneiras de fazer requisições HTTP do front end para o back end usando REST.
+Os verbos são: Get, Put, Post, Patch, Delete sendo que alguns podem receber parâmetros na URL ou não.
+
+## Tipos
+Existem três tipos de parâmetros, dois deles comumente utilizados no método GET e um no método no POST.
+
+* Query Params (GET)
+* Route Params (GET)
+* Body Params (POST e PUT)
+
+### Query params
+
+Recebe os dados da requisição como parâmetro na URL.
+
+Caso de uso: Filtros para fazer consultas na aplicação.
+
+Pode conter um ou mais parâmetros:
+
+Exemplos:
+
+``http://minhaapi.com/banks?name=nubank``
+
+No exemplo acima acesso o recurso (ou rota) banks, filtrando por name. Para inserir parâmetros é colocado um "?" após a rota e então adicionado a propriedade e valor: ``name=nubank``.
+
+
 
 ## Material para consulta e estudo
 
