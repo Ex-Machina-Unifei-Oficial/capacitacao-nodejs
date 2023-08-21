@@ -85,6 +85,15 @@ Caso de uso: Melhor maneira para buscar algo específico, deletar ou atualizar u
 ``PUT: https://api.github.com/users/380327``<br>
 ``DELETE: https://api.github.com/users/380327``<br>
 
+## Body Params
+Recebe os dados da requisição no corpo da requisição, em um objeto em JSON. Sempre utilizando no método POST da requisição.
+
+```json
+{ 
+	"name": "Thiago", "age": 18, "email": "thiago@mail.com"
+}
+```
+
 No exemplo acima ocorrem a busca, a atualização e o delete de um usuário do GitHub com id 380327.
 
 
