@@ -32,7 +32,10 @@ Geralmente as APIs utilizam uma arquitetura baseada em ``cliente e servidor.`` A
 REST(Representational State Transfer, que significa Transferência Representacional de Estado) é um modelo de arquitetura e não uma linguagem ou tecnologia de programação, que fornece diretrizes para que os sistemas distribuídos se comuniquem diretamente usando os princípios e protocolos existentes da Web.
 Os conceitos do REST foram submetidos à tese de doutorado de Roy Fielding nos anos 2000, onde o princípio fundamental é usar o protocolo HTTP para comunicação de dados.
 A arquitetura REST é simples e fornece acesso aos recursos para que o cliente REST acesse e renderize os recursos no lado do cliente.
-Na arquitetura REST a comunicação entre cliente e servidor ocorre através da troca de mensagens usando um padrão de solicitação-resposta. O cliente basicamente envia uma solicitação de serviço e o servidor retorna uma resposta.
+Na arquitetura REST a comunicação entre cliente e servidor ocorre através da troca de mensagens usando um padrão de solicitação-resposta. O cliente basicamente envia uma solicitação de serviço e o servidor retorna uma resposta.Para representação e troca de informações no padrão REST o formato mais utilizado atualmente é o JSON.
+
+## JSON
+O JSON (JavaScript Object Notation) é, como o nome sugere, uma forma de notação de objetos JavaScript. É um formato de dados leve e de fácil leitura utilizado para troca de informações entre sistemas computacionais. Ele é frequentemente usado para transmitir dados entre um servidor e um cliente em aplicações web.
 
 ## Métodos HTTP
 Em aplicação REST, os métodos mais utilizados são:
