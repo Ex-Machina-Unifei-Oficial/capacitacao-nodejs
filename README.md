@@ -84,9 +84,9 @@ Recebe os dados da requisição na rota.
 
 Caso de uso: Melhor maneira para buscar algo específico, deletar ou atualizar usando o identificador único, por exemplo:
 
-``GET: https://api.github.com/users/380327``
-``PUT: https://api.github.com/users/380327``
-``DELETE: https://api.github.com/users/380327``
+``GET: https://api.github.com/users/380327``<br>
+``PUT: https://api.github.com/users/380327``<br>
+``DELETE: https://api.github.com/users/380327``<br>
 
 No exemplo acima ocorrem busca, atualização e delete de um usuário do GitHub com id 380327.
 
