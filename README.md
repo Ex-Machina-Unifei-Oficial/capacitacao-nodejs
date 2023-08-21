@@ -39,14 +39,13 @@ O JSON (JavaScript Object Notation) é, como o nome sugere, uma forma de notaç�
 
 ```json
 {
-   "isbn":"123-456-222",
    "author":{
-      "lastname":"Doe",
       "firstname":"Jane"
+      "lastname":"Doe",
    },
    "editor":{
-      "lastname":"Smith",
       "firstname":"Jane"
+      "lastname":"Smith",
    },
    "title":"The Ultimate Database Study Guide",
    "category":[
