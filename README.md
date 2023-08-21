@@ -6,7 +6,7 @@ O JavaScript possui grande foco no Front-end (client side), ou seja, é comument
 
 O Node.js é um ambiente de execução, um “runtime”, que possibilidade execução de código JavaScript do lado servidor (server side), sem a necessidade de um navegador.
 
-## A História do Node.js
+# A História do Node.js
 
 O Node.js nasceu em 2009 como uma resposta às tentativas de rodar códigos JavaScript em modo “server side”, uma vez que a linguagem tinha como meta principal a manipulação do ``DOM (Document Object Model)`` e deixar as aplicações web mais interativas e dinâmicas.
 
@@ -14,7 +14,7 @@ Além disso, o fato da popularidade da linguagem entre pessoas desenvolvedoras p
 
 Esses são alguns dos fatores que motivaram  o criador do projeto do Node.js, o engenheiro de software Ryan Dahl.
 
-## Frontend e Backend
+# Frontend e Backend
 
 Front-end se refere à parte visível de um aplicativo ou site com a qual os usuários interagem diretamente, envolvendo design, interatividade e experiência do usuário. Utiliza tecnologias como HTML, CSS e JavaScript. Enquanto isso, o back-end é a parte não visível que lida com a lógica de negócios, processamento de dados e interações com bancos de dados, usando linguagens como Python, Java e plataformas como Node.js.
 
@@ -22,19 +22,19 @@ A arquitetura cliente-servidor é um modelo em que as funções são divididas e
 
 Além disso, uma parte crucial dessa relação são as APIs ``Application Programming Interface (Interface de Programação de Aplicação)``, que define como os componentes front-end e back-end se comunicam. Através da API, o front-end faz solicitações específicas ao back-end, que responde com os dados ou ações necessárias. É possível fazer alusão de uma API com o próprio back-end (o servidor) seguindo determinados protocolos e convenções.
 
-## API
+# API
 
 APIs são mecanismos que permitem que dois componentes de software se comuniquem usando um conjunto de definições e protocolos, sendo o ``protocolo HTTP`` o principal protocolo de comunicação utilizado na web. No contexto de APIs, a palavra "Aplicação" se refere a qualquer tipo de software. A "Interface" pode ser definida como um contrato, um conjuntos de regras, que devem ser seguidas para a comunicação efetiva entre dois, ou mais, softwares distintos. A comunicação entre os softwares é realizada por meio de **requisições** (requests) e **repostas** (responses).
 Geralmente as APIs utilizam uma arquitetura baseada em ``cliente e servidor.`` A aplicação, o software, que envia a requisição é chamada de “cliente” e a aplicação que envia a resposta é chamada de “servidor”.
 
-## REST
+# REST
 
 REST(Representational State Transfer, que significa Transferência Representacional de Estado) é um modelo de arquitetura e não uma linguagem ou tecnologia de programação, que fornece diretrizes para que os sistemas distribuídos se comuniquem diretamente usando os princípios e protocolos existentes da Web.
 Os conceitos do REST foram submetidos à tese de doutorado de Roy Fielding nos anos 2000, onde o princípio fundamental é usar o protocolo HTTP para comunicação de dados.
 A arquitetura REST é simples e fornece acesso aos recursos para que o cliente REST acesse e renderize os recursos no lado do cliente.
 Na arquitetura REST a comunicação entre cliente e servidor ocorre através da troca de mensagens usando um padrão de solicitação-resposta. O cliente basicamente envia uma solicitação de serviço e o servidor retorna uma resposta.
 
-# Métodos HTTP
+## Métodos HTTP
 Em aplicação REST, os métodos mais utilizados são:
 
 * O método ``GET`` é o método mais comum, geralmente é usado para solicitar que um servidor envie um recurso;<br>
@@ -42,7 +42,8 @@ O método POST foi projetado para enviar dados de entrada para o servidor. Na pr
 O método PUT edita e atualiza documentos em um servidor;
 O método DELETE que como o próprio nome já diz, deleta certo dado ou coleção do servidor.
 
-# Algunso dos Códigos de Resposta HTTP mais utilizados são:
+## Códigos de Respostas
+Cada resposta que a aplicação REST retorna, é enviado um código definindo o status da requisição. Algunso dos Códigos de Resposta HTTP mais utilizados são:
 * 200 OK: A solicitação foi bem-sucedida e a resposta contém os dados solicitados.<br>
 * 201 Created: A solicitação foi bem-sucedida e resultou na criação de um novo recurso.<br>
 * 204 No Content: Este código significa que o servidor processou a solicitação com sucesso, mas não retornará nenhum conteúdo.<br>
