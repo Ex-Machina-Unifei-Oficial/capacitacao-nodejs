@@ -9,7 +9,7 @@ app.use(express.json())
 
 // POST http://localhost:3333/users
 app.post('/users', (req, res) => {
-    const {name, age, email} = req.body
+    const {name, age, email} = req.body // Body Params
     users.push({name, age, email})
 
     if(users.length > 0){
@@ -25,7 +25,7 @@ app.get('/users', (_, res) => {
 
 // GET http://localhost:3333/users:1
 app.get('/users/:id', (req, res) => {
-    const userId = req.params.id
+    const userId = req.params.id // Route params
     return res.json({userId})
 })
 
