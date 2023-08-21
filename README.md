@@ -32,3 +32,5 @@ Geralmente as APIs utilizam uma arquitetura baseada em ``cliente e servidor.`` A
 💙 [Playlist Conceitos sobre a WEB](https://www.youtube.com/playlist?list=PLPjSrtKJfMyfh-Pk-H-I_5nYAognbeGG7)
 
 💚 [Playlist Node.js](https://www.youtube.com/playlist?list=PLPjSrtKJfMye2tETbbWSql4k_E4TFlQPT)
+
+💜 [Introducao ao Insominia](https://youtu.be/gLpw0GSDYaw)
