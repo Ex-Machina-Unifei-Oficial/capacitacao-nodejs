@@ -43,7 +43,7 @@ O método ``PUT`` edita e atualiza documentos em um servidor;<br>
 O método ``DELETE`` que como o próprio nome já diz, deleta certo dado ou coleção do servidor;<br>
 
 ## Códigos de Respostas
-Cada resposta que a aplicação REST retorna, é enviado um código definindo o status da requisição. Algunso dos Códigos de Resposta HTTP mais utilizados são:
+Cada resposta que a aplicação REST retorna, é enviado um código definindo o status da requisição. Os Códigos de Resposta HTTP mais utilizados são:
 * 200 (OK), a solicitação foi bem-sucedida e a resposta contém os dados solicitados;<br>
 * 201 (Created), a solicitação foi bem-sucedida e resultou na criação de um novo recurso;<br>
 * 204 (No Content), este código significa que o servidor processou a solicitação com sucesso, mas não retornará nenhum conteúdo;<br>
