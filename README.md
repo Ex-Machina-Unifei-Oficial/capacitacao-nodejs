@@ -37,6 +37,25 @@ Na arquitetura REST a comunicação entre cliente e servidor ocorre através da 
 ## JSON
 O JSON (JavaScript Object Notation) é, como o nome sugere, uma forma de notação de objetos JavaScript. É um formato de dados leve e de fácil leitura utilizado para troca de informações entre sistemas computacionais. Ele é frequentemente usado para transmitir dados entre um servidor e um cliente em aplicações web.
 
+```json
+{
+   "isbn":"123-456-222",
+   "author":{
+      "lastname":"Doe",
+      "firstname":"Jane"
+   },
+   "editor":{
+      "lastname":"Smith",
+      "firstname":"Jane"
+   },
+   "title":"The Ultimate Database Study Guide",
+   "category":[
+      "Non-Fiction",
+      "Technology"
+   ]
+}
+```
+
 ## Métodos HTTP
 Em aplicação REST, os métodos mais utilizados são:
 
