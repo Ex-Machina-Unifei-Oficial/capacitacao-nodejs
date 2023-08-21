@@ -88,7 +88,7 @@ Caso de uso: Melhor maneira para buscar algo específico, deletar ou atualizar u
 ``PUT: https://api.github.com/users/380327``<br>
 ``DELETE: https://api.github.com/users/380327``<br>
 
-No exemplo acima ocorrem busca, atualização e delete de um usuário do GitHub com id 380327.
+No exemplo acima ocorrem a busca, a atualização e o delete de um usuário do GitHub com id 380327.
 
 
 ## Material para consulta e estudo
