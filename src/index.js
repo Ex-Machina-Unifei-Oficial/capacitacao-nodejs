@@ -13,7 +13,8 @@ app.post('/users', (req, res) => {
     users.push({name, age, email})
 
     if(users.length > 0){
-        return res.status(201).json({body: req.body})
+        console.log(users)
+        return res.status(201).json()
     }
     return res.status(400).json()
 })
