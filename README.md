@@ -132,3 +132,7 @@ Criar um CRUD significa desenvolver uma interface que permita ao usuário realiz
 💚 [Playlist Node.js](https://www.youtube.com/playlist?list=PLPjSrtKJfMye2tETbbWSql4k_E4TFlQPT)
 
 💜 [Introducao ao Insominia](https://youtu.be/gLpw0GSDYaw)
+
+❤️ [Introducao a APIs](https://www.youtube.com/playlist?list=PLPjSrtKJfMyfaOviKmRvt9cQKdvcqcPUX)
+
+💛 [Introducao ao TypeScript](https://www.youtube.com/playlist?list=PLPjSrtKJfMye8GirwVEfwLEGVkrDc92U2)
