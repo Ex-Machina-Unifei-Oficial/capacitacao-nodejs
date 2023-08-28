@@ -124,6 +124,12 @@ CRUD é um acrônimo para ``Create`` (criar), ``Read`` (ler), ``Update`` (atuali
 Essas operações permitem que os usuários interajam com os dados armazenados em um sistema, podendo criar novos registros, ler informações existentes, atualizar registros existentes e excluir registros que não são mais necessários.<br>
 Criar um CRUD significa desenvolver uma interface que permita ao usuário realizar essas operações de forma simples e intuitiva.<br>
 
+# TypeScript
+
+O TypeScript é um superconjunto de JavaScript, ou seja, um conjunto de ferramentas e formas mais eficientes de escrever código JavaScript. Começou a ser desenvolvido pela Microsoft em 2012, com o objetivo de adicionar recursos que não estão presentes nativamente na linguagem JavaScript (ou que seriam muito mais complexos de serem implementados), como tipagem estática (ou seja, os tipos das variáveis são definidos explicitamente no código) e orientação a objetos.
+A principal vantagem do TypeScript em relação ao JavaScript “tradicional” é adicionar recursos importantes para a construção de projetos em larga escala, como tipagem estática, forte e automática, orientação a objetos e a possibilidade de descobrir e corrigir erros em tempo real durante o desenvolvimento.
+Apesar de ter sido criado pela Microsoft, o TypeScript é um projeto de código-aberto, com intensa participação da comunidade. Você pode saber mais sobre a linguagem, ler a documentação e testar sua utilização diretamente no navegador pelo [site oficial](https://www.typescriptlang.org/)
+.
 
 ## Material para consulta e estudo
 
