@@ -131,6 +131,13 @@ A principal vantagem do TypeScript em relação ao JavaScript “tradicional” 
 Apesar de ter sido criado pela Microsoft, o TypeScript é um projeto de código-aberto, com intensa participação da comunidade. Você pode saber mais sobre a linguagem, ler a documentação e testar sua utilização diretamente no navegador pelo [site oficial](https://www.typescriptlang.org/)
 .
 
+## Deafio
+
+Tomando como base o conteúdo da API de Tarefas apresentada na capcitação, o desafio consiste em criar uma API de um CRUD de Usuários. Cada usuário deve ter um id único, um email (não deve ser repetido), um campo nome e um campo senha.
+
+# Extra
+Após o desafio concluído em JavaScript, aplique às devidas refatorações migrando o código para TypeScript, aplicando os tipos correspondentes a cada campo.
+
 ## Material para consulta e estudo
 
 💙 [Playlist Conceitos sobre a WEB](https://www.youtube.com/playlist?list=PLPjSrtKJfMyfh-Pk-H-I_5nYAognbeGG7)
